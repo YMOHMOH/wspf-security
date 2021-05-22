@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
 import "./App.css";
 
 import Home from "./screens/Home";
@@ -17,6 +18,7 @@ import {
   faMapMarker,
   faPhone,
   faEnvelope,
+  faAngleUp,
 } from "@fortawesome/free-solid-svg-icons";
 library.add(
   faBars,
@@ -25,12 +27,31 @@ library.add(
   faStarHalfAlt,
   faMapMarker,
   faPhone,
-  faEnvelope
+  faEnvelope,
+  faAngleUp
 );
 
 function App() {
+  const [scrollTop, setScrollTop] = useState("scrollTop");
+
+  const activeScrollTop = () => {
+    if (window.scrollY > 500) {
+      setScrollTop("scrollTop active");
+    } else {
+      setScrollTop("scrollTop");
+    }
+  };
+
+  window.addEventListener("scroll", activeScrollTop);
+
   return (
     <Router>
+      <div
+        className={scrollTop}
+        onClick={() => {
+          scroll.scrollToTop();
+        }}
+      ></div>
       <Switch>
         <Route path="/contact">
           <Contact />

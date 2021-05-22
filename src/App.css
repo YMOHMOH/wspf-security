@@ -7,6 +7,30 @@
   font-family: "Poppins", sans-serif;
 }
 
+.scrollTop {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  width: 3.75rem;
+  height: 3.75rem;
+  background: #fff url(assets/img/up.png);
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-size: 2.5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.scrollTop.active {
+  visibility: visible;
+  opacity: 1;
+}
+
 .header {
   min-height: 100vh;
   width: 100%;
