@@ -20,7 +20,7 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  z-index: 2;
+  z-index: 3;
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;
