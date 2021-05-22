@@ -33,12 +33,12 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/about">
+            <Link to="/surete">
               <span>Sûreté</span>
             </Link>
           </li>
           <li>
-            <Link to="/course">
+            <Link to="/telesurveillance">
               <span>Télésurveillance</span>
             </Link>
           </li>

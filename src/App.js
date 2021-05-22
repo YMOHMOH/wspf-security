@@ -56,13 +56,13 @@ function App() {
         <Route path="/contact">
           <Contact />
         </Route>
-        <Route path="/about">
+        <Route path="/surete">
           <About />
         </Route>
         <Route path="/blog">
           <Blog />
         </Route>
-        <Route path="/course">
+        <Route path="/telesurveillance">
           <Course />
         </Route>
         <Route path="/" exact>
