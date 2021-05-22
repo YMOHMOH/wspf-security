@@ -35,7 +35,7 @@ function App() {
   const [scrollTop, setScrollTop] = useState("scrollTop");
 
   const activeScrollTop = () => {
-    if (window.scrollY > 500) {
+    if (window.scrollY > 200) {
       setScrollTop("scrollTop active");
     } else {
       setScrollTop("scrollTop");
