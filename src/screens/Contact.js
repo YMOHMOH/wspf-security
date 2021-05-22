@@ -14,7 +14,7 @@ function Contact() {
     <>
       <section class="sub-header">
         <Header />
-        <h2>Contact Us</h2>
+        <h2>Nous contacter</h2>
       </section>
       <section class="location">
         <iframe
@@ -29,45 +29,34 @@ function Contact() {
         <div class="row">
           <div class="contact-col">
             <div>
-              <i class="fa fa-home"></i>
               <span>
-                <h5>Xyz Road, Abc Building</h5>
-                <p>Bangalore, Karnataka, IN</p>
+                <h5>4BIS Rue de l'Alizé, 95610 Éragny, France</h5>
               </span>
             </div>
             <div>
-              <i class="fa fa-phone"></i>
               <span>
-                <h5>+1 0123456789</h5>
-                <p>Monday to Saturday 10 Am to 6 Pm</p>
+                <h5>+331 34 42 87 90</h5>
               </span>
             </div>
             <div>
-              <i class="fa fa-envelope-o"></i>
               <span>
-                <h5>info@easytutorialspro.com</h5>
-                <p>Email us your query</p>
+                <h5>contact@wspf-group.com</h5>
               </span>
             </div>
           </div>
           <div class="contact-col">
             <form method="post" action="contact-form-handler.php">
-              <input
-                type="text"
-                name="name"
-                placeholder="Enter your name"
-                required
-              />
+              <input type="text" name="name" placeholder="Nom" required />
               <input
                 type="email"
                 name="email"
-                placeholder="Enter email address"
+                placeholder="Adresse email"
                 required
               />
               <input
                 type="text"
                 name="subject"
-                placeholder="Enter your subject"
+                placeholder="Sujet de la demande"
                 required
               />
               <textarea
@@ -77,7 +66,7 @@ function Contact() {
                 required
               ></textarea>
               <button type="submit" class="hero-btn red-btn">
-                Send Message
+                Envoyer
               </button>
             </form>
           </div>

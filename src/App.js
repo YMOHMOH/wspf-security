@@ -8,6 +8,10 @@ import About from "./screens/About";
 import Blog from "./screens/Blog";
 import Contact from "./screens/Contact";
 import Course from "./screens/Course";
+import Cgu from "./screens/Cgu";
+import Private from "./screens/Private";
+import Privacy from "./screens/Privacy";
+import Article from "./screens/Article";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -47,6 +51,18 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/article">
+          <Article />
+        </Route>
+        <Route path="/mentionslegales">
+          <Cgu />
+        </Route>
+        <Route path="/vieprivee">
+          <Private />
+        </Route>
+        <Route path="/privacy">
+          <Privacy />
+        </Route>
         <Route path="/contact">
           <Contact />
         </Route>

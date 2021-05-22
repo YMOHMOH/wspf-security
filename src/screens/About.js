@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import "../App.css";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -15,6 +16,9 @@ function About() {
   useEffect(() => {
     scroll.scrollToTop();
   }, []);
+
+  let history = useHistory();
+
   return (
     <>
       <section className="sub-header">
@@ -58,12 +62,14 @@ function About() {
               respect des dispositions législatives et réglementaires
               applicables à l’activité.
             </p>
-            <a
-              href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"
+            <span
               className="hero-btn red-btn"
+              onClick={() => {
+                history.push("/contact");
+              }}
             >
-              EXPOLER NOW
-            </a>
+              En savoir plus
+            </span>
           </div>
           <div className="about-col center">
             <img src={AS} />
@@ -110,12 +116,14 @@ function About() {
               de la branche, comme ce fut le cas pour le CQP APS désormais
               pleinement opérationnel et exigible.
             </p>
-            <a
-              href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"
+            <span
               className="hero-btn red-btn"
+              onClick={() => {
+                history.push("/contact");
+              }}
             >
-              EXPOLER NOW
-            </a>
+              En savoir plus
+            </span>
           </div>
           <div className="about-col center">
             <img src={MC} />
@@ -153,12 +161,14 @@ function About() {
               et les immeubles de grande hauteur (IGH). Vous cherchez un
               responsable sécurité ? Contactez-nous.
             </p>
-            <a
-              href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"
+            <span
               className="hero-btn red-btn"
+              onClick={() => {
+                history.push("/contact");
+              }}
             >
-              EXPOLER NOW
-            </a>
+              En savoir plus
+            </span>
           </div>
           <div className="about-col center">
             <img src={ASI} />
@@ -199,12 +209,14 @@ function About() {
               cahier de consignes précisant pour chaque site : La localisation
               géographique, les dispositifs.
             </p>
-            <a
-              href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"
+            <span
               className="hero-btn red-btn"
+              onClick={() => {
+                history.push("/contact");
+              }}
             >
-              EXPOLER NOW
-            </a>
+              En savoir plus
+            </span>
           </div>
           <div className="about-col center">
             <img src={Ronde} />
@@ -240,12 +252,14 @@ function About() {
               Résistance nerveuse, - Maîtrise d’au moins une langue étrangère, -
               Et, bien sûr, courtoisie à toute épreuve.
             </p>
-            <a
-              href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"
+            <span
               className="hero-btn red-btn"
+              onClick={() => {
+                history.push("/contact");
+              }}
             >
-              EXPOLER NOW
-            </a>
+              En savoir plus
+            </span>
           </div>
           <div className="about-col center">
             <img src={ASE} />

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import "../App.css";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -9,6 +10,8 @@ import Certificate from "../assets/img/certificate.jpg";
 import PrivateSecurity from "../assets/img/securite-prive.png";
 
 function Blog() {
+  let history = useHistory();
+
   useEffect(() => {
     scroll.scrollToTop();
   }, []);
@@ -16,7 +19,7 @@ function Blog() {
     <>
       <section className="sub-header">
         <Header />
-        <h2>Our Certificate & Online Programs For 2021</h2>
+        <h2>Blog</h2>
       </section>
       <section className="blog-content">
         <div className="row">
@@ -90,16 +93,17 @@ function Blog() {
                 <div className="blog-details">
                   <div className="icon-text">
                     <span className="icon">
-                      <i className="ri-calendar-line"></i>
+                      <i className="ri-user-line"></i>
                     </span>
-                    <span className="text">09/05/2020</span>
+                    <span className="text">Surveillance</span>
                   </div>
                   <div className="icon-text">
                     <span className="icon">
-                      <i className="ri-user-line"></i>
+                      <i className="ri-calendar-line"></i>
                     </span>
-                    <span className="text">Author</span>
+                    <span className="text">21/05/2021</span>
                   </div>
+                  {/*}
                   <div className="icon-text">
                     <span className="icon">
                       <i className="ri-message-line"></i>
@@ -111,7 +115,7 @@ function Blog() {
                       <i className="ri-heart-line"></i>
                     </span>
                     <span className="text">122</span>
-                  </div>
+                  </div>*/}
                 </div>
                 <h2 className="blog-title">Post title will be here</h2>
 
@@ -123,10 +127,17 @@ function Blog() {
                 </p>
 
                 <div className="blog-cta">
-                  <div className="button">Read more</div>
-                  <div className="share-button">
-                    <i className="ri-share-line"></i>
+                  <div
+                    className="button"
+                    onClick={() => {
+                      history.push("/article");
+                    }}
+                  >
+                    En lire plus
                   </div>
+                  {/*<div className="share-button">
+                    <i className="ri-share-line"></i>
+                  </div>*/}
                 </div>
               </div>
             </div>
@@ -138,16 +149,18 @@ function Blog() {
                 <div className="blog-details">
                   <div className="icon-text">
                     <span className="icon">
-                      <i className="ri-calendar-line"></i>
+                      <i className="ri-user-line"></i>
                     </span>
-                    <span className="text">09/05/2020</span>
+                    <span className="text">Telesurveillance</span>
                   </div>
                   <div className="icon-text">
                     <span className="icon">
-                      <i className="ri-user-line"></i>
+                      <i className="ri-calendar-line"></i>
                     </span>
-                    <span className="text">Author</span>
+                    <span className="text">21/05/2021</span>
                   </div>
+
+                  {/*}
                   <div className="icon-text">
                     <span className="icon">
                       <i className="ri-message-line"></i>
@@ -159,7 +172,7 @@ function Blog() {
                       <i className="ri-heart-line"></i>
                     </span>
                     <span className="text">122</span>
-                  </div>
+                  </div>*/}
                 </div>
                 <h2 className="blog-title">Post title will be here</h2>
 
@@ -171,10 +184,17 @@ function Blog() {
                 </p>
 
                 <div className="blog-cta">
-                  <div className="button">Read more</div>
-                  <div className="share-button">
-                    <i className="ri-share-line"></i>
+                  <div
+                    className="button"
+                    onClick={() => {
+                      history.push("/article");
+                    }}
+                  >
+                    En lire plus
                   </div>
+                  {/*<div className="share-button">
+                    <i className="ri-share-line"></i>
+                  </div>*/}
                 </div>
               </div>
             </div>
@@ -186,16 +206,18 @@ function Blog() {
                 <div className="blog-details">
                   <div className="icon-text">
                     <span className="icon">
-                      <i className="ri-calendar-line"></i>
+                      <i className="ri-user-line"></i>
                     </span>
-                    <span className="text">09/05/2020</span>
+                    <span className="text">Surveillance</span>
                   </div>
                   <div className="icon-text">
                     <span className="icon">
-                      <i className="ri-user-line"></i>
+                      <i className="ri-calendar-line"></i>
                     </span>
-                    <span className="text">Author</span>
+                    <span className="text">21/05/2021</span>
                   </div>
+
+                  {/*}
                   <div className="icon-text">
                     <span className="icon">
                       <i className="ri-message-line"></i>
@@ -207,7 +229,7 @@ function Blog() {
                       <i className="ri-heart-line"></i>
                     </span>
                     <span className="text">122</span>
-                  </div>
+                  </div>*/}
                 </div>
                 <h2 className="blog-title">Post title will be here</h2>
 
@@ -219,16 +241,23 @@ function Blog() {
                 </p>
 
                 <div className="blog-cta">
-                  <div className="button">Read more</div>
-                  <div className="share-button">
-                    <i className="ri-share-line"></i>
+                  <div
+                    className="button"
+                    onClick={() => {
+                      history.push("/article");
+                    }}
+                  >
+                    En lire plus
                   </div>
+                  {/*<div className="share-button">
+                    <i className="ri-share-line"></i>
+                  </div>*/}
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="blog-right">
+          {/* <div className="blog-right">
             <h3>Post Categories</h3>
             <div>
               <span>Business Analytics</span>
@@ -258,7 +287,7 @@ function Blog() {
               <span>Commerce</span>
               <span>13</span>
             </div>
-          </div>
+          </div>*/}
         </div>
       </section>
       <Footer />

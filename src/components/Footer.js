@@ -29,9 +29,27 @@ function Footer() {
           <QuickLinks>
             <h4>Informations</h4>
             <ul>
-              <li>Mentions légales</li>
-              <li>Vie privée</li>
-              <li>Infos cookies</li>
+              <li
+                onClick={() => {
+                  history.push("/mentionslegales");
+                }}
+              >
+                Mentions légales
+              </li>
+              <li
+                onClick={() => {
+                  history.push("/vieprivee");
+                }}
+              >
+                Vie privée
+              </li>
+              <li
+                onClick={() => {
+                  history.push("/privacy");
+                }}
+              >
+                Infos cookies
+              </li>
             </ul>
           </QuickLinks>
           <ContactFooter>

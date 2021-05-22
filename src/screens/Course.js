@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import "../App.css";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -13,6 +14,9 @@ function Course() {
   useEffect(() => {
     scroll.scrollToTop();
   }, []);
+
+  let history = useHistory();
+
   return (
     <>
       <section className="sub-header">
@@ -39,12 +43,14 @@ function Course() {
               toutes les 6 heures des tests cycliques vers les émetteurs des
               différents sites.
             </p>
-            <a
-              href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"
+            <span
               className="hero-btn red-btn"
+              onClick={() => {
+                history.push("/contact");
+              }}
             >
-              EXPOLER NOW
-            </a>
+              En savoir plus
+            </span>
           </div>
           <div className="about-col center">
             <img src={Surveillance} />
@@ -73,15 +79,17 @@ function Course() {
               défectueux ✓ Remplacement de matériel vandalisé ✓ Modification de
               paramètres ✓ Maintenance préventive.
             </p>
-            <a
-              href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"
+            <span
               className="hero-btn red-btn"
+              onClick={() => {
+                history.push("/contact");
+              }}
             >
-              EXPOLER NOW
-            </a>
+              En savoir plus
+            </span>
           </div>
           <div className="about-col center">
-            <img src={Atlant} />
+            <img src={Atlant} style={{ width: "100%" }} />
           </div>
         </div>
         <div className="row">
@@ -117,12 +125,14 @@ function Course() {
               sécurité et l’entreprise. Contactez-nous pour mettre en place
               votre système de télésurveillance ou de vidéosurveillance.
             </p>
-            <a
-              href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"
+            <span
               className="hero-btn red-btn"
+              onClick={() => {
+                history.push("/contact");
+              }}
             >
-              EXPOLER NOW
-            </a>
+              En savoir plus
+            </span>
           </div>
           <div className="about-col center">
             <img src={Permanence} />
