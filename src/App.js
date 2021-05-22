@@ -47,12 +47,6 @@ function App() {
   return (
     <Router>
       <Switch>
-        <div
-          className={scrollTop}
-          onClick={() => {
-            scroll.scrollToTop();
-          }}
-        ></div>
         <Route path="/contact">
           <Contact />
         </Route>
@@ -69,6 +63,12 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <div
+        className={scrollTop}
+        onClick={() => {
+          scroll.scrollToTop();
+        }}
+      ></div>
     </Router>
   );
 }
