@@ -121,6 +121,9 @@ nav .fa {
 }
 
 @media (max-width: 700px) {
+  .header {
+    min-height: 50vh;
+  }
   .nav-links ul li {
     display: block;
   }
@@ -154,6 +157,9 @@ nav .fa {
   }
   .text-box h1 {
     font-size: 20px;
+  }
+  .header {
+    height: 50vh;
   }
 }
 
