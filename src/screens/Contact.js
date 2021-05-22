@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
+import { animateScroll as scroll } from "react-scroll";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 function Contact() {
+  useEffect(() => {
+    scroll.scrollToTop();
+  }, []);
+
   return (
     <>
       <section class="sub-header">

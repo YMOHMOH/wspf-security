@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 
 import "../App.css";
 
@@ -32,6 +33,8 @@ import Client15 from "../assets/img/Client15.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home() {
+  let history = useHistory();
+
   return (
     <>
       <section className="header">
@@ -39,15 +42,25 @@ function Home() {
         <div className="text-box">
           <h1>World Security Protect France </h1>
           <p>Surveillance humaine, sécurité incendie & sureté. </p>
-          <a href="contact.html" className="hero-btn">
+          <span
+            className="hero-btn"
+            onClick={() => {
+              history.push("/contact");
+            }}
+          >
             Visitez-nous
-          </a>
+          </span>
         </div>
       </section>
 
       <section className="course">
         <div className="row">
-          <div className="campus-col">
+          <div
+            className="campus-col"
+            onClick={() => {
+              history.push("/surete");
+            }}
+          >
             <img src={Secure} />
             <div className="layer">
               <h3>
@@ -74,7 +87,12 @@ function Home() {
           </div>
         </div>
         <div className="row">
-          <div className="campus-col">
+          <div
+            className="campus-col"
+            onClick={() => {
+              history.push("/telesurveillance");
+            }}
+          >
             <img src={Telesurveillance} />
             <div className="layer">
               <h3>
@@ -99,7 +117,12 @@ function Home() {
           </div>
         </div>
         <div className="row">
-          <div className="campus-col">
+          <div
+            className="campus-col"
+            onClick={() => {
+              history.push("/blog");
+            }}
+          >
             <img src={Operateur} />
             <div className="layer">
               <h3>
@@ -243,12 +266,14 @@ function Home() {
           <br />
           la sécurité privée en Île-de-France
         </h2>
-        <a
-          href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"
+        <span
           className="hero-btn"
+          onClick={() => {
+            history.push("/contact");
+          }}
         >
           Contactez-nous
-        </a>
+        </span>
       </section>
       <Footer />
     </>

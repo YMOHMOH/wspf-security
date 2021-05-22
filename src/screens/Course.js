@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
+import { animateScroll as scroll } from "react-scroll";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -9,6 +10,9 @@ import Atlant from "../assets/img/atlant.png";
 import Permanence from "../assets/img/permanence-telephonique.png";
 
 function Course() {
+  useEffect(() => {
+    scroll.scrollToTop();
+  }, []);
   return (
     <>
       <section className="sub-header">

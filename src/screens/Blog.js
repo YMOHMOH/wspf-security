@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
+import { animateScroll as scroll } from "react-scroll";
 
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -8,6 +9,9 @@ import Certificate from "../assets/img/certificate.jpg";
 import PrivateSecurity from "../assets/img/securite-prive.png";
 
 function Blog() {
+  useEffect(() => {
+    scroll.scrollToTop();
+  }, []);
   return (
     <>
       <section className="sub-header">

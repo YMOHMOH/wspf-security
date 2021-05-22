@@ -1,9 +1,12 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
+import { useHistory } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Footer() {
+  let history = useHistory();
+
   return (
     <>
       <FooterWrapper>
@@ -56,7 +59,11 @@ function Footer() {
                 </span>
                 <p>contact@wspf-group.com</p>
               </li>
-              <li>
+              <li
+                onClick={() => {
+                  history.push("/contact");
+                }}
+              >
                 <span>
                   <FontAwesomeIcon icon="envelope" />
                 </span>

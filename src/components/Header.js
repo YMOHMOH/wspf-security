@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import "../App.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,6 +8,8 @@ import Logo from "../assets/img/logo.png";
 
 function Header() {
   const [isActiveMenu, setIsActiveMenu] = useState(false);
+
+  let history = useHistory();
 
   return (
     <nav>
@@ -28,29 +30,51 @@ function Header() {
         />
         <ul>
           <li>
-            <Link to="/">
-              <span>ACCUEIL</span>
-            </Link>
+            <span
+              onClick={() => {
+                history.push("/");
+              }}
+            >
+              ACCUEIL
+            </span>
           </li>
           <li>
-            <Link to="/surete">
-              <span>Sûreté</span>
-            </Link>
+            <span
+              onClick={() => {
+                history.push("/surete");
+              }}
+            >
+              Sûreté
+            </span>
           </li>
           <li>
-            <Link to="/telesurveillance">
-              <span>Télésurveillance</span>
-            </Link>
+            <span
+              onClick={() => {
+                history.push("/telesurveillance");
+              }}
+            >
+              Télésurveillance
+            </span>
           </li>
           <li>
-            <Link to="/blog">
-              <span>BLOG</span>
-            </Link>
+            <span
+              onClick={() => {
+                history.push("/blog");
+              }}
+            >
+              {" "}
+              BLOG
+            </span>
           </li>
           <li>
-            <Link to="/contact">
-              <span>CONTACT</span>
-            </Link>
+            <span
+              onClick={() => {
+                history.push("/contact");
+              }}
+            >
+              {" "}
+              CONTACT
+            </span>
           </li>
         </ul>
       </div>
