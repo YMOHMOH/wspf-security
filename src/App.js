@@ -46,13 +46,13 @@ function App() {
 
   return (
     <Router>
-      <div
-        className={scrollTop}
-        onClick={() => {
-          scroll.scrollToTop();
-        }}
-      ></div>
       <Switch>
+        <div
+          className={scrollTop}
+          onClick={() => {
+            scroll.scrollToTop();
+          }}
+        ></div>
         <Route path="/contact">
           <Contact />
         </Route>
