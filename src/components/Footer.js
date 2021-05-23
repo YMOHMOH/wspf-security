@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -60,7 +60,7 @@ function Footer() {
                   <FontAwesomeIcon icon="map-marker" />
                 </span>
                 <span>
-                  4BIS Rue de l'Alizé,
+                  4 Bis Rue de l'Alizé,
                   <br />
                   95610 Éragny, France
                 </span>

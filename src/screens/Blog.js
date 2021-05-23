@@ -6,8 +6,11 @@ import { animateScroll as scroll } from "react-scroll";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-import Certificate from "../assets/img/certificate.jpg";
-import PrivateSecurity from "../assets/img/securite-prive.png";
+import Private from "../assets/img/securite-prive.png";
+import Store from "../assets/img/securite-magasin.png";
+import Incendie from "../assets/img/securite-incendie.png";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Blog() {
   let history = useHistory();
@@ -87,13 +90,13 @@ function Blog() {
           <div className="blog">
             <div className="card">
               <div className="card-image">
-                <img src={PrivateSecurity} alt="" />
+                <img src={Private} alt="" />
               </div>
               <div className="card-content">
                 <div className="blog-details">
                   <div className="icon-text">
                     <span className="icon">
-                      <i className="ri-user-line"></i>
+                      <FontAwesomeIcon icon="tag" />
                     </span>
                     <span className="text">Surveillance</span>
                   </div>
@@ -117,20 +120,24 @@ function Blog() {
                     <span className="text">122</span>
                   </div>*/}
                 </div>
-                <h2 className="blog-title">Post title will be here</h2>
+                <h2 className="blog-title">
+                  Télésurveillance et surveillance à Asnières-sur-Seine,
+                  Aubervilliers...
+                </h2>
 
                 <p className="excerpt">
-                  Par expérience, WSPF a mis en place une équipe de permanence
-                  appelée COS, Centre Opérationnel de Surveillance. Celui-ci
-                  joue un rôle primordial pour la bonne réalisation de nos
-                  prestations.
+                  Depuis sa création, la société WSPF s'est toujours attachée à
+                  construire et à renforcer son relationnel avec les clients.
+                  Forts de cet engagement, nous sommes persuadés que
+                  l'innovation en matière de sécurité est le fruit d'une
+                  confiance mutuelle.
                 </p>
 
                 <div className="blog-cta">
                   <div
                     className="button"
                     onClick={() => {
-                      history.push("/article");
+                      history.push("/article", { article: 1 });
                     }}
                   >
                     En lire plus
@@ -143,15 +150,15 @@ function Blog() {
             </div>
             <div className="card">
               <div className="card-image">
-                <img src={PrivateSecurity} alt="" />
+                <img src={Incendie} alt="" />
               </div>
               <div className="card-content">
                 <div className="blog-details">
                   <div className="icon-text">
                     <span className="icon">
-                      <i className="ri-user-line"></i>
+                      <FontAwesomeIcon icon="tag" />
                     </span>
-                    <span className="text">Telesurveillance</span>
+                    <span className="text">Incendie</span>
                   </div>
                   <div className="icon-text">
                     <span className="icon">
@@ -174,20 +181,21 @@ function Blog() {
                     <span className="text">122</span>
                   </div>*/}
                 </div>
-                <h2 className="blog-title">Post title will be here</h2>
+                <h2 className="blog-title">
+                  Sécurité incendie à Aubervilliers, Asnières-sur-Seine...
+                </h2>
 
                 <p className="excerpt">
-                  Par expérience, WSPF a mis en place une équipe de permanence
-                  appelée COS, Centre Opérationnel de Surveillance. Celui-ci
-                  joue un rôle primordial pour la bonne réalisation de nos
-                  prestations.
+                  La gamme de prestations de notre société permet d’être en
+                  mesure de renforcer la sécurité des personnes et des biens et
+                  se décline en plusieurs points.
                 </p>
 
                 <div className="blog-cta">
                   <div
                     className="button"
                     onClick={() => {
-                      history.push("/article");
+                      history.push("/article", { article: 2 });
                     }}
                   >
                     En lire plus
@@ -200,13 +208,13 @@ function Blog() {
             </div>
             <div className="card">
               <div className="card-image">
-                <img src={PrivateSecurity} alt="" />
+                <img src={Store} alt="" />
               </div>
               <div className="card-content">
                 <div className="blog-details">
                   <div className="icon-text">
                     <span className="icon">
-                      <i className="ri-user-line"></i>
+                      <FontAwesomeIcon icon="tag" />
                     </span>
                     <span className="text">Surveillance</span>
                   </div>
@@ -231,20 +239,22 @@ function Blog() {
                     <span className="text">122</span>
                   </div>*/}
                 </div>
-                <h2 className="blog-title">Post title will be here</h2>
+                <h2 className="blog-title">
+                  Gardiennage et sécurité incendie à Aubervilliers,
+                  Asnières-sur-Seine...
+                </h2>
 
                 <p className="excerpt">
-                  Par expérience, WSPF a mis en place une équipe de permanence
-                  appelée COS, Centre Opérationnel de Surveillance. Celui-ci
-                  joue un rôle primordial pour la bonne réalisation de nos
-                  prestations.
+                  Notre entreprise propose à ses clients un personnel efficace
+                  et qualifié. Notre personnel vient de tous horizons et de
+                  toutes ethnies.
                 </p>
 
                 <div className="blog-cta">
                   <div
                     className="button"
                     onClick={() => {
-                      history.push("/article");
+                      history.push("/article", { article: 3 });
                     }}
                   >
                     En lire plus

@@ -72,7 +72,7 @@ function About() {
             </span>
           </div>
           <div className="about-col center">
-            <img src={AS} />
+            <img src={AS} alt="agent de securité" />
           </div>
         </div>
         <div className="row reverse">
@@ -126,7 +126,7 @@ function About() {
             </span>
           </div>
           <div className="about-col center">
-            <img src={MC} />
+            <img src={MC} alt="Maitre chien" />
           </div>
         </div>
         <div className="row">
@@ -171,7 +171,7 @@ function About() {
             </span>
           </div>
           <div className="about-col center">
-            <img src={ASI} />
+            <img src={ASI} alt="agent de sécurité incendie" />
           </div>
         </div>
         <div className="row  reverse">
@@ -219,7 +219,7 @@ function About() {
             </span>
           </div>
           <div className="about-col center">
-            <img src={Ronde} />
+            <img src={Ronde} alt="agent rondier" />
           </div>
         </div>
         <div className="row">
@@ -262,7 +262,7 @@ function About() {
             </span>
           </div>
           <div className="about-col center">
-            <img src={ASE} />
+            <img src={ASE} alt="agent de sécurité evenementiel" />
           </div>
         </div>
       </section>

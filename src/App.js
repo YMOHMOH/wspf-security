@@ -23,6 +23,7 @@ import {
   faPhone,
   faEnvelope,
   faAngleUp,
+  faTag,
 } from "@fortawesome/free-solid-svg-icons";
 library.add(
   faBars,
@@ -32,7 +33,8 @@ library.add(
   faMapMarker,
   faPhone,
   faEnvelope,
-  faAngleUp
+  faAngleUp,
+  faTag
 );
 
 function App() {

@@ -12,8 +12,6 @@ import Operateur from "../assets/img/operateur.png";
 import Securiser from "../assets/img/securiser.png";
 import Accompagner from "../assets/img/accompagner.png";
 import Rassurer from "../assets/img/rassurer.png";
-import User1 from "../assets/img/user1.jpg";
-import User2 from "../assets/img/user2.jpg";
 import Client1 from "../assets/img/Client1.png";
 import Client2 from "../assets/img/Client2.png";
 import Client3 from "../assets/img/Client3.png";
@@ -29,8 +27,6 @@ import Client12 from "../assets/img/Client12.png";
 import Client13 from "../assets/img/Client13.png";
 import Client14 from "../assets/img/Client14.png";
 import Client15 from "../assets/img/Client15.png";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home() {
   let history = useHistory();
@@ -61,7 +57,7 @@ function Home() {
               history.push("/surete");
             }}
           >
-            <img src={Secure} />
+            <img src={Secure} alt="Sureté" />
             <div className="layer">
               <h3>
                 Sécurité et sûreté <br />
@@ -93,7 +89,7 @@ function Home() {
               history.push("/telesurveillance");
             }}
           >
-            <img src={Telesurveillance} />
+            <img src={Telesurveillance} alt="Telesurveillance" />
             <div className="layer">
               <h3>
                 Télésurveillance <br />
@@ -123,7 +119,7 @@ function Home() {
               history.push("/blog");
             }}
           >
-            <img src={Operateur} />
+            <img src={Operateur} alt="Permanence" />
             <div className="layer">
               <h3>
                 Une entreprise de sécurité <br />à taille humaine
@@ -150,17 +146,17 @@ function Home() {
         <p>Choisir WSPF pour les bonnes raisons</p>
         <div className="row">
           <div className="facility-col">
-            <img src={Securiser} />
+            <img src={Securiser} alt="Securiser" />
             <h3>Sécuriser</h3>
             <p>Participer à l’établissement d’un climat de sécurité.</p>
           </div>
           <div className="facility-col">
-            <img src={Accompagner} />
+            <img src={Accompagner} alt="Accompagner" />
             <h3>Accompagner</h3>
             <p>Rester présent à l'esprit des clients et prospects.</p>
           </div>
           <div className="facility-col">
-            <img src={Rassurer} />
+            <img src={Rassurer} alt="Rassurer" />
             <h3>Rassurer</h3>
             <p>Donner confiance au client et aux équipes internes.</p>
           </div>
@@ -171,53 +167,53 @@ function Home() {
         <h2>Ils nous font confiance</h2>
         <div className="clients">
           <div className="client">
-            <img src={Client1} />
+            <img src={Client1} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client2} />
+            <img src={Client2} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client3} />
+            <img src={Client3} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client4} />
+            <img src={Client4} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client5} />
+            <img src={Client5} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client6} />
+            <img src={Client6} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client7} />
+            <img src={Client7} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client8} />
+            <img src={Client8} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client9} />
+            <img src={Client9} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client10} />
+            <img src={Client10} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client11} />
+            <img src={Client11} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client12} />
+            <img src={Client12} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client13} />
+            <img src={Client13} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client14} />
+            <img src={Client14} alt="Partenaire" />
           </div>
           <div className="client">
-            <img src={Client15} />
+            <img src={Client15} alt="Partenaire" />
           </div>
         </div>
       </section>
-
+      {/* 
       <section className="testimonials">
         <h2>What Our Student Says</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -259,7 +255,7 @@ function Home() {
           </div>
         </div>
       </section>
-
+*/}
       <section className="cta">
         <h2>
           Contactez WSPF, votre spécialiste de

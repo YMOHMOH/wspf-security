@@ -14,7 +14,7 @@ function Header() {
   return (
     <nav>
       <Link to="/">
-        <img src={Logo} />
+        <img src={Logo} alt="Logo" />
       </Link>
       <div
         className={!isActiveMenu ? "nav-links" : "nav-links isActive"}

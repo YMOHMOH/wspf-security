@@ -53,7 +53,7 @@ function Course() {
             </span>
           </div>
           <div className="about-col center">
-            <img src={Surveillance} />
+            <img src={Surveillance} alt="Surveillance" />
           </div>
         </div>
         <div className="row reverse">
@@ -89,7 +89,11 @@ function Course() {
             </span>
           </div>
           <div className="about-col center">
-            <img src={Atlant} style={{ width: "100%" }} />
+            <img
+              src={Atlant}
+              style={{ width: "100%" }}
+              alt="Telesurveillance"
+            />
           </div>
         </div>
         <div className="row">
@@ -135,7 +139,7 @@ function Course() {
             </span>
           </div>
           <div className="about-col center">
-            <img src={Permanence} />
+            <img src={Permanence} alt="Permanence" />
           </div>
         </div>
       </section>
