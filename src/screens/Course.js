@@ -21,7 +21,7 @@ function Course() {
     <>
       <section className="sub-header">
         <Header />
-        <h2>Télésurveillance en Île-de-France</h2>
+        <h2>Télésurveillance</h2>
       </section>
 
       <section className="about-us">

@@ -23,7 +23,7 @@ function About() {
     <>
       <section className="sub-header">
         <Header />
-        <h2>WSPF, des agents qualifiés et adaptés à chaque mission</h2>
+        <h2>sureté</h2>
       </section>
       <section className="about-us">
         <div className="row">
