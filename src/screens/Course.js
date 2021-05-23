@@ -72,12 +72,16 @@ function Course() {
               levée de doute par téléphone. Si le doute sur une intrusion
               persiste, WSPF contacte le responsable ou propriétaire du site
               surveillé. Une équipe d’intervention est envoyée sur site pour
-              faire un état des lieux et sécuriser le site. MAINTENANCE Les
-              techniciens WSPF se déplacent dans vos locaux professionnels,
+              faire un état des lieux et sécuriser le site. <br />
+              <br />
+              MAINTENANCE <br />
+              <br />
+              Les techniciens WSPF se déplacent dans vos locaux professionnels,
               maison ou appartement, afin d’assurer le fonctionnement de votre
-              système de surveillance : ✓ Réparations ✓ Remplacement de matériel
-              défectueux ✓ Remplacement de matériel vandalisé ✓ Modification de
-              paramètres ✓ Maintenance préventive.
+              système de surveillance : <br />
+              <br />✓ Réparations <br />✓ Remplacement de matériel défectueux{" "}
+              <br />✓ Remplacement de matériel vandalisé <br />✓ Modification de
+              paramètres <br />✓ Maintenance préventive.
             </p>
             <span
               className="hero-btn red-btn"

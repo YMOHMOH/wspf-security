@@ -33,7 +33,7 @@ function About() {
               WSPF propose des spécialistes de la sécurité et des vigiles pour
               le transport de fonds et de valeurs, la sécurité événementielle et
               la surveillance de magasin et de site sur toute l'Île-de-France
-              (Paris, 77, 78, 91, 92 ,93 ,94 ,95). <br />
+              (Paris, 77, 78, 91, 92, 93, 94, 95). <br />
               L’agent de sécurité assure la protection des biens meubles et
               immeubles ainsi que celle des personnes liées directement ou
               indirectement à ces biens. Son travail consiste principalement à
@@ -82,8 +82,8 @@ function About() {
               WSPF est une société de sécurité qui vous propose des prestations
               dans les métiers de la sécurité : agents de surveillance
               cynophiles, maîtres-chiens et chiens de défense pour patrouille,
-              ronde de surveillance sur toute l'Île-de-France (Paris, 77,78, 91,
-              92 ,93 ,94 ,95). <br />
+              ronde de surveillance sur toute l'Île-de-France (Paris, 77, 78,
+              91, 92, 93, 94, 95). <br />
               L’agent cynophile constitue une véritable équipe « Homme / Chien »
               sachant optimiser les qualités acquises et naturelles du chien.
               L’activité consiste à assurer la protection des biens et/ou des
@@ -136,7 +136,7 @@ function About() {
               WSPF propose ses agents pour la prévention des risques d'incendie,
               la protection des biens, l’assistance et la protection des
               personnes dans les établissements publics sur toute
-              l'Île-de-France (Paris, 77, 78, 91, 92 ,93 ,94 ,95). <br />
+              l'Île-de-France (Paris, 77, 78, 91, 92, 93, 94, 95). <br />
               Les missions de l'Agent de Sécurité Incendie SSIAP 1, 2 et 3 :{" "}
               <br />
               <br />▪ Surveillance humaine de la prévention des incendies <br />
@@ -234,12 +234,13 @@ function About() {
               s’ajoutent souvent des tâches de réception téléphonique ou de
               secrétariat. Si sa fonction essentielle est la réception et
               l’information du public, ses missions peuvent être très diverses
-              suivant les lieux ou entreprises où il exerce. ▪ En entreprise, il
-              oriente les visiteurs dans les locaux, les dirige vers les
-              services compétents, répond aux demandes d’information, effectue
-              des réservations de taxi. Il joue également très souvent le rôle
-              de standardiste, tout en assumant des tâches de secrétariat
-              (classement, traitement de texte, mise à jour de fichiers). <br />
+              suivant les lieux ou entreprises où il exerce. <br />▪ En
+              entreprise, il oriente les visiteurs dans les locaux, les dirige
+              vers les services compétents, répond aux demandes d’information,
+              effectue des réservations de taxi. Il joue également très souvent
+              le rôle de standardiste, tout en assumant des tâches de
+              secrétariat (classement, traitement de texte, mise à jour de
+              fichiers). <br />
               <br />▪ Dans les foires et les salons (hôtesse d'accueil dans
               l'événementiel), en plus de l’accueil, il remplit fréquemment une
               fonction de démonstrateur ou d’interprète. <br />▪ Dans

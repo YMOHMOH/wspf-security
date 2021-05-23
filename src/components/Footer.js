@@ -69,7 +69,7 @@ function Footer() {
                 <span>
                   <FontAwesomeIcon icon="phone" />
                 </span>
-                <p>+331 34 42 87 90</p>
+                <p>+33 1 34 42 87 90</p>
               </li>
               <li>
                 <span>

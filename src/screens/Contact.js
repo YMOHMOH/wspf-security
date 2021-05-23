@@ -56,12 +56,12 @@ function Contact() {
           <div className="contact-col">
             <div>
               <span>
-                <h5>4BIS Rue de l'Alizé, 95610 Éragny, France</h5>
+                <h5>4 Bis Rue de l'Alizé, 95610 Éragny, France</h5>
               </span>
             </div>
             <div>
               <span>
-                <h5>+331 34 42 87 90</h5>
+                <h5>+33 1 34 42 87 90</h5>
               </span>
             </div>
             <div>
