@@ -210,10 +210,10 @@ h3 {
 
 @media (max-width: 700px) {
   .row {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .reverse {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 
