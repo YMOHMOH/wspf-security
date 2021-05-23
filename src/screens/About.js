@@ -23,7 +23,7 @@ function About() {
     <>
       <section className="sub-header">
         <Header />
-        <h2>sureté</h2>
+        <h2>Sûreté</h2>
       </section>
       <section className="about-us">
         <div className="row">
@@ -202,12 +202,12 @@ function About() {
               interventions sont parfois assurées par des conducteurs de chiens
               de garde et de défense. Les moyens mis à sa disposition par
               l’entreprise conformément aux dispositions législatives et
-              réglementaires en vigueur sont : ➢ Un véhicule non banalisé dont
-              les organes de sécurité sont maintenus en bon état de
-              fonctionnement. ➢ Un moyen de communication servant tant à
-              l’exercice de sa mission qu’à sa protection personnelle. ➢ Un
-              cahier de consignes précisant pour chaque site : La localisation
-              géographique, les dispositifs.
+              réglementaires en vigueur sont : <br />
+              <br />➢ Un véhicule non banalisé dont les organes de sécurité sont
+              maintenus en bon état de fonctionnement. <br />➢ Un moyen de
+              communication servant tant à l’exercice de sa mission qu’à sa
+              protection personnelle. <br />➢ Un cahier de consignes précisant
+              pour chaque site : La localisation géographique, les dispositifs.
             </p>
             <span
               className="hero-btn red-btn"
@@ -248,10 +248,11 @@ function About() {
               dans leurs démarches et les aide dans la rédaction de formulaires.{" "}
               <br />
               <br />
-              Certaines qualités de base sont exigées : - Excellente
-              présentation, - Très bonne élocution, - Goût du contact, -
-              Résistance nerveuse, - Maîtrise d’au moins une langue étrangère, -
-              Et, bien sûr, courtoisie à toute épreuve.
+              Certaines qualités de base sont exigées : <br />
+              <br />- Excellente présentation, <br />- Très bonne élocution,{" "}
+              <br />- Goût du contact, <br />- Résistance nerveuse, <br />-
+              Maîtrise d’au moins une langue étrangère, <br />- Et, bien sûr,
+              courtoisie à toute épreuve.
             </p>
             <span
               className="hero-btn red-btn"
